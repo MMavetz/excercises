@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Page Scroll</title>
+</head>
+
+<style>
+
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        scroll-behavior: smooth;
+
+    }
+
+    body {
+        background-color: slategrey;
+    }
+
+    .container {
+        width: 1180px;
+        height: 4000px;
+        background-color: yellow;
+        margin: 0 auto;
+        position: relative;
+
+    }
+
+    nav {
+        width: 1180px;
+        height: 100px;
+        background-color: coral;
+        color: darkkhaki;
+        margin: 0 auto;
+        padding-top: 50px;
+        text-align: center;
+
+    }
+
+    #section_01, #section_03, #section_05 {
+        width: 1180px;
+        height: 800px;
+        background-color: aliceblue;
+        color: darkgray;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #section_02, #section_04 {
+        width: 1180px;
+        height: 800px;
+        background-color: black;
+        color: darkgray;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    p#nav-section_01, p#nav-section_02, p#nav-section_03, p#nav-section_04, p#nav-section_05 {
+        display: inline;
+        font-size: 24px;
+        font-family: "avenier",sans-serif;
+        font-weight: bold;
+        padding: 0 25px;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: ghostwhite;
+
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: purple;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: ghostwhite;
+
+    }
+
+    a:active {
+        text-decoration: none;
+        color: crimson;
+    }
+
+</style>
+
+<body>
+
+<div class="container">
+
+
+    <nav>
+        <a href="#section_01"></a>Section One</a></a>
+        <a href="#section_02"></a>Section Two</a></a>
+        <a href="#section_03"></a>Section Three</a></a>
+        <a href="#section_04"></a>Section Four</a></a>
+        <a href="#section_05"></a>Section Five</a></a>
+
+
+    </nav>
+
+    <div id="section_01"><p>SECTION ONE</p></div>
+    <div id="section_02"><p>SECTION TWO</p></div>
+    <div id="section_03"><p>SECTION THREE</p></div>
+    <div id="section_04"><p>SECTION FOUR</p></div>
+    <div id="section_05"><p>SECTION FIVE</p></div>
+
+
+</div><!-- end of container-->
+
+</body>
+</html>
