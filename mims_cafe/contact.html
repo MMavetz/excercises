@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mim's Cafe</title>
+
+    <style>
+
+        .wrapper {
+
+            position: absolute;
+            width: 1500px;
+            height: 900px;
+            left: 0px;
+            top: 0px;
+
+            background: #F8E3C3;
+        }
+
+        .banner {
+            position: fixed;
+            width: 1500px;
+            height: 155px;
+            left: 0px;
+            top: 0px;
+
+            background: #F8DD4C;
+        }
+
+        h1 {
+            position: fixed;
+            width: 380px;
+            height: 62px;
+            left: 100px;
+            top: 2px;
+
+            font-family: Reem Kufi;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 69px;
+            line-height: normal;
+            margin: 10px;
+
+            color: #000000;
+        }
+
+        h2 {
+            position: fixed;
+            width: 347px;
+            height: 57px;
+            left: 104px;
+            top: 97px;
+
+            font-family: Reem Kufi;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: normal;
+            margin: 10px;
+
+            color: #000000;
+        }
+
+        .menu {
+            position: fixed;
+            width: 116px;
+            height: 155px;
+            left: 586px;
+            top: 0px;
+
+        }
+
+        .catering {
+            position: fixed;
+            width: 116px;
+            height: 155px;
+            left: 701px;
+            top: 0px;
+        }
+
+
+        .directions {
+            position: fixed;
+            width: 116px;
+            height: 155px;
+            left: 816px;
+            top: 0px;
+        }
+
+
+        .contact {
+            position: fixed;
+            width: 116px;
+            height: 155px;
+            left: 930px;
+            top: 0px;
+
+            background: #F8E3C3;
+        }
+        h3{
+            padding: 50px;
+            margin-right: 20px;
+            margin-left: -25px;
+        }
+
+        a:link {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: sandybrown;
+        }
+
+.hours {
+    position: fixed;
+    width: 460px;
+    height: 230px;
+    left: 106px;
+    top: 187px;
+
+    background: #DFCEB6;
+}
+
+        .social {
+            position: fixed;
+            width: 460px;
+            height: 230px;
+            left: 587px;
+            top: 186px;
+
+            background: #DFCEB6;
+        }
+
+    .cateringinfo {
+        position: fixed;
+        width: 460px;
+        height: 230px;
+        left: 106px;
+        top: 438px;
+
+        background: #DFCEB6;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: normal;
+        color: #000000;
+    }
+        .reviews {
+            position: fixed;
+            width: 460px;
+            height: 230px;
+            left: 587px;
+            top: 438px;
+
+            background: #DFCEB6;
+        }
+
+p {
+    position: fixed;
+    width: 177px;
+    height: 51px;
+    left: 121px;
+    top: 150px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: normal;
+
+    color: #000000;
+    margin-top: 50px;
+}
+
+p1{
+    position: fixed;
+    width: 318px;
+    height: 128px;
+    left: 123px;
+    top: 244px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 27px;
+
+    color: #000000;
+
+}
+
+p2 {
+    position: fixed;
+    width: 216px;
+    height: 25px;
+    left: 121px;
+    top: 326px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: normal;
+
+    color: #000000;
+}
+
+p3{
+    position: fixed;
+    width: 330px;
+    height: 55px;
+    left: 121px;
+    top: 366px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: normal;
+
+    color: #000000;
+}
+
+p4{
+    padding: 50px;
+    padding-top: 50px;
+    margin-left: 50px;
+    line-height: 75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    top: 100px;
+    left: 682px;
+}
+
+p5{
+    position: fixed;
+    width: 181px;
+    height: 60px;
+    left: 121px;
+    top: 454px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: normal;
+
+    color: #000000;
+}
+
+p6{
+    position: fixed;
+    width: 420px;
+    height: 202px;
+    left: 121px;
+    top: 496px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+p7{
+    position: fixed;
+    width: 268px;
+    height: 69px;
+    left: 606px;
+    top: 460px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: normal;
+
+    color: #000000;
+}
+
+p8{
+    position: fixed;
+    width: 399px;
+    height: 52px;
+    left: 606px;
+    top: 503px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: normal;
+
+    color: #000000;
+}
+
+p9{
+    position: fixed;
+    width: 399px;
+    height: 85px;
+    left: 606px;
+    top: 588px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: normal;
+
+    color: #000000;
+}
+
+.logos {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    left: 612px;
+    top: 110px;
+
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    left: 612px;
+    top: 160px;
+
+
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    left: 612px;
+    top: 210px;
+line-height: 50px;
+}
+
+        .stars {
+            position: fixed;
+            width: 227px;
+            height: 35px;
+            left: 778px;
+            top: 458px;
+        }
+
+    </style>
+
+</head>
+<link rel="shortcut icon" href=favicon64.png" />
+
+<body>
+
+<div class="wrapper">
+
+    <div class="hours">
+        <p>Hours</p>
+        <p1>Monday-Friday: 11am- 9pm Saturday and Sunday: Closed</p1>
+        <br>
+        <p2>Phone: (651)-646-0456</p2>
+        <br>
+        <p3>Email: shaheensinc@gmail.com</p3>
+    </div>
+
+    <div class="social">
+
+        <p4>mimscafe.facebook</p4>
+        <p4>mimscafe.insta</p4>
+        <p4>mimscafe.blogger</p4>
+
+    </div>
+    <div class="logos">
+        <img src="Facebook_logo.png" height="50" width="50"/>
+        <img src="Instagram.png" height="50" width="50"/>
+        <img src="Blogger.png" height="50" width="50"/>
+    </div>
+
+    <div class="cateringinfo">
+        <p5>Catering</p5>
+        <br>
+        <p6>Buffet of Chicken Muraf, falafel, hummus, rice, salad, and pita bread.<br>We make sure to provide enough of each selection for all  your guests, whether they are vegetarian or meat eaters. $8 per person.<br>For $10 will include the above plus kutfa kabobs.</p6>
+
+    </div>
+
+    <div class="reviews">
+        <div class="stars"><img src="Screen Shot 2019-03-10 at 7.20.37 PM.png" height="35" width="227"/></div>
+        <p7>Yelp Reviews</p7>
+        <br>
+        <p8>“This is located right by the U of M's St. Paul campus, and is perfect for cheap, delicious, Mediterranean food!”</p8>
+        <br>
+        <p9>“In terms of quality and price- Mim's is my favorite Middle Eastern restaurant in the Twin Cities.”</p9>
+    </div>
+
+
+
+    <div class="banner">
+
+       <a href="Mims_cafe.html"> <h1>Mim's Cafe</h1>
+        <h2>Middle Eastern and American Food</h2></a>
+
+        <div class="menu">
+            <a href="Menu.html">  <h3>Menu</h3></a>
+        </div>
+        <div class="catering">
+             <a href="catering"><h3>Catering</h3></a>
+            <div class="directions">
+                <a href="Directions.html"><h3>Directions</h3></a>
+            </div>
+            <div class="contact">
+                <a href="contact.html"> <h3>Contact</h3></a>
+            </div>
+
+        </div> <!--end of banner div -->
+
+    </div> <!--end of wrapper div-->
+</div>
+
+</body>
+</html>
